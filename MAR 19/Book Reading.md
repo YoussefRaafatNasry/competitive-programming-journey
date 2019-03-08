@@ -1,8 +1,8 @@
 # [Book Reading](https://codeforces.com/contest/884/problem/A)
 
-| Difficulty | Solved on  | Language   |
-| :--------: | :--------: | :--------: |
-| Easy       | 08/03/2019 | c++        |
+| Difficulty | Solved on  | Language   | Platform   |
+| :--------: | :--------: | :--------: | :--------: |
+| Easy       | 08/03/2019 | C++        | CodeForces |
 
 ### Solution:
 

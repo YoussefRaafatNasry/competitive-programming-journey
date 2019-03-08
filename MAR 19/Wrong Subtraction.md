@@ -1,8 +1,8 @@
 # [Wrong Subtraction](https://codeforces.com/problemset/problem/977/A)
 
-| Difficulty | Solved on  | Language   |
-| :--------: | :--------: | :--------: |
-| Easy       | 02/03/2019 | c++        |
+| Difficulty | Solved on  | Language   | Platform   |
+| :--------: | :--------: | :--------: | :--------: |
+| Easy       | 02/03/2019 | C++        | CodeForces |
 
 ### Solution:
 

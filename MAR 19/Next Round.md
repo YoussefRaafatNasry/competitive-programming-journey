@@ -1,8 +1,8 @@
 # [Next Round](https://codeforces.com/problemset/problem/158/A)
 
-| Difficulty | Solved on  | Language   |
-| :--------: | :--------: | :--------: |
-| Easy       | 03/03/2019 | c++        |
+| Difficulty | Solved on  | Language   | Platform   |
+| :--------: | :--------: | :--------: | :--------: |
+| Easy       | 03/03/2019 | C++        | CodeForces |
 
 ### Solution:
 
