@@ -10,8 +10,7 @@
 #include <iostream>
 using namespace std;
 
-int main()
-{
+int main() {
 
     int n;
     cin >> n;
@@ -28,7 +27,7 @@ int main()
                 swap(match[1], match[2]);
             else if (winner == 1)
                 swap(match[0], match[2]);
-            else 
+            else
                 swap(match[0], match[1]);
         }
         else {

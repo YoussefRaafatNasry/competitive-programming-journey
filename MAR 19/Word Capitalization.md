@@ -11,11 +11,12 @@
 #include <string>
 using namespace std;
 
-void main()
-{
+void main() {
+
     string s;
     cin >> s;
     s[0] = toupper(s[0]);
     cout << s;
+
 }
 ```

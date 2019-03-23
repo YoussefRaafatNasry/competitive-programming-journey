@@ -11,8 +11,7 @@
 #include <string>
 using namespace std;
 
-void main()
-{
+void main() {
 
     int n;
     cin >> n;

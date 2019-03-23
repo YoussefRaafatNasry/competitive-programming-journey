@@ -37,7 +37,6 @@ long long ternarySearch(int start, int end) {
     int right = end;
 
     while (right - left > 3) {
-
         int interval_length = right - left;
         int mid1 = left  + interval_length / 3;
         int mid2 = right - interval_length / 3;
@@ -46,7 +45,6 @@ long long ternarySearch(int start, int end) {
             right = mid2;
         else
             left = mid1;
-
     }
 
     long long answer = f(left);

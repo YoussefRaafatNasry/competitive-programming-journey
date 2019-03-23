@@ -10,8 +10,7 @@
 #include <iostream>
 using namespace std;
 
-void main()
-{
+int main() {
 
     int n, t;
     cin >> n >> t;
@@ -22,10 +21,7 @@ void main()
 
     for (int i = 0; i < n; i++) {
         t -= 86400 - daysWorkingTime[i];
-        if (t <= 0) {
-            cout << i + 1;
-            break;
-        }
+        if (t <= 0) return cout << i + 1, 0;
     }
 
 }

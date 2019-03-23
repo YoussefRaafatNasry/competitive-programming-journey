@@ -10,8 +10,7 @@
 #include <iostream>
 using namespace std;
 
-void main()
-{
+void main() {
 
     int w;
     cin >> w;

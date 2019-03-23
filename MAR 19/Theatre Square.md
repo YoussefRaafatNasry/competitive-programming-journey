@@ -10,8 +10,7 @@
 #include <iostream>
 using namespace std;
 
-void main()
-{
+void main() {
 
     long long n, m, a;
     cin >> n >> m >> a;
