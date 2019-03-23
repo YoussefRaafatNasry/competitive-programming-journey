@@ -12,36 +12,38 @@
 #include <vector>
 using namespace std;
 
-void main() {
+int main() {
+
+    ios::sync_with_stdio(0), cin.tie(0), cout.tie(0);
 
     int n, l, r;
     cin >> n >> l >> r;
 
-    vector<int> a(n), p(n), c(n), b(n);
-    for (int i = 0; i < n; i++) cin >> a[i];
-    for (int i = 0; i < n; i++) cin >> p[i];
+    int *a = new int[n], *c = new int[n];
+    vector<pair<int, int>> p(n);
 
-    vector<int>::iterator itr;
-    int previousIndex, currentIndex = -1;
-    bool isSuitable = true;
+    for (int i = 0; i < n; i++) cin >> a[i];
 
     for (int i = 0; i < n; i++) {
-
-        itr = find(p.begin(), p.end(), i + 1);
-        previousIndex = currentIndex;
-        currentIndex = distance(p.begin(), itr);
-
-        i == 0 ? b[currentIndex] = l : b[currentIndex] = (c[previousIndex] + a[currentIndex]) + 1;
-        if (b[currentIndex] < l) b[currentIndex] = l;
-        if (b[currentIndex] > r) isSuitable = false;
-        c[currentIndex] = b[currentIndex] - a[currentIndex];
-
+        int x;
+        cin >> x;
+        p[i] = make_pair( x, i );
     }
 
-    if (isSuitable)
-        for (int i : b) cout << i << " ";
-    else
-        cout << -1;
+    sort(p.begin(), p.end());
+    int previousIndex, currentIndex = p[0].second;
+
+    for (int i = 0; i < n; i++) {
+        previousIndex = currentIndex;
+        currentIndex  = p[i].second;
+        int b = c[previousIndex] + a[currentIndex] + 1;
+        if (i == 0 || b < l) b = l;
+        if (b > r) return puts("-1");
+        c[currentIndex] = b - a[currentIndex];
+    }
+
+    for (int i = 0; i < n; i++) cout << a[i] + c[i] << " ";
+    return 0;
 
 }
 ```
