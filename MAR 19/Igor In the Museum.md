@@ -1,10 +1,8 @@
 # [Igor In the Museum](https://codeforces.com/contest/598/problem/D)
 
-| Difficulty | Solved on  | Language   | Platform   |
-| :--------: | :--------: | :--------: | :--------: |
-| Medium     | 29/03/2019 | C++        | CodeForces |
-
-### Solution:
+| Difficulty | Solved on  | Language   | Platform   | Time       | Memory     |
+| :--------: | :--------: | :--------: | :--------: | :--------: | :--------: |
+| Medium     | 29/03/2019 | C++        | CodeForces | 467 ms     | 58500 KB   |
 
 ```c++
 #include <iostream>
@@ -51,8 +49,6 @@ int CalculateTotalPictures(cell* currentCell, cell* grandCell) {
 }
 
 int main() {
-
-    ios::sync_with_stdio(0), cin.tie(0), cout.tie(0);
 
     int n, m, k;
     cin >> n >> m >> k;

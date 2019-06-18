@@ -1,10 +1,8 @@
 # [Vanya and Lanterns](https://codeforces.com/contest/492/problem/B)
 
-| Difficulty | Solved on  | Language   | Platform   |
-| :--------: | :--------: | :--------: | :--------: |
-| Easy       | 08/06/2019 | Java       | CodeForces |
-
-### Solution:
+| Difficulty | Solved on  | Language   | Platform   | Time       | Memory     |
+| :--------: | :--------: | :--------: | :--------: | :--------: | :--------: |
+| Easy       | 08/06/2019 | Java       | CodeForces | 140 ms     | 0 KB       |
 
 ```java
 import java.util.Arrays;

@@ -1,10 +1,8 @@
 # [Devu and his Brother](https://codeforces.com/contest/439/problem/D)
 
-| Difficulty | Solved on  | Language   | Platform   |
-| :--------: | :--------: | :--------: | :--------: |
-| Medium     | 15/03/2019 | C++        | CodeForces |
-
-### Solution:
+| Difficulty | Solved on  | Language   | Platform   | Time       | Memory     |
+| :--------: | :--------: | :--------: | :--------: | :--------: | :--------: |
+| Medium     | 15/03/2019 | C++        | CodeForces | 280 ms     | 2100 KB    |
 
 ```c++
 #include <iostream>
@@ -57,7 +55,7 @@ long long ternarySearch(int start, int end) {
 
 }
 
-void main() {
+int main() {
 
     int n, m;
     cin >> n >> m;
@@ -75,6 +73,7 @@ void main() {
     }
 
     cout << ternarySearch(1, 1e9);
+    return 0;
 
 }
 ```

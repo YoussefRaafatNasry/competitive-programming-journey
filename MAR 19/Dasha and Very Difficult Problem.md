@@ -1,10 +1,8 @@
 # [Dasha and Very Difficult Problem](https://codeforces.com/contest/761/problem/D)
 
-| Difficulty | Solved on  | Language   | Platform   |
-| :--------: | :--------: | :--------: | :--------: |
-| Medium     | 22/03/2019 | C++        | CodeForces |
-
-### Solution:
+| Difficulty | Solved on  | Language   | Platform   | Time       | Memory     |
+| :--------: | :--------: | :--------: | :--------: | :--------: | :--------: |
+| Medium     | 22/03/2019 | C++        | CodeForces | 93 ms      | 1600 KB    |
 
 ```c++
 #include <iostream>
@@ -13,8 +11,6 @@
 using namespace std;
 
 int main() {
-
-    ios::sync_with_stdio(0), cin.tie(0), cout.tie(0);
 
     int n, l, r;
     cin >> n >> l >> r;

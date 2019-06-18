@@ -1,17 +1,14 @@
 # [Perfect Security](https://codeforces.com/problemset/problem/923/C)
 
-| Difficulty | Solved on  | Language   | Platform   |
-| :--------: | :--------: | :--------: | :--------: |
-| Hard       | 14/03/2019 | C++        | CodeForces |
-
-### Solution:
+| Difficulty | Solved on  | Language   | Platform   | Time       | Memory     |
+| :--------: | :--------: | :--------: | :--------: | :--------: | :--------: |
+| Hard       | 14/03/2019 | C++        | CodeForces | 1762 ms    | 110300 KB  |
 
 ```c++
 #include <iostream>
 #include <vector>
 #include <string>
 using namespace std;
-
 
 class Trie {
 
@@ -108,7 +105,6 @@ public:
 
 };
 
-
 string DecToBin(int number) {
 
     if (number == 0) return "0";
@@ -131,8 +127,7 @@ long long BinToDec(string number) {
 
 }
 
-
-void main() {
+int main() {
 
     int num_bits = 30;
 
@@ -162,6 +157,8 @@ void main() {
         P.remove(bestMatch);
         cout << (BinToDec(A[i]) ^ BinToDec(bestMatch)) << " ";
     }
+
+    return 0;
 
 }
 ```

@@ -1,10 +1,8 @@
 # [Ladder](https://codeforces.com/contest/279/problem/C)
 
-| Difficulty | Solved on  | Language   | Platform   |
-| :--------: | :--------: | :--------: | :--------: |
-| Medium     | 18/06/2019 | C++        | CodeForces |
-
-### Solution:
+| Difficulty | Solved on  | Language   | Platform   | Time       | Memory     |
+| :--------: | :--------: | :--------: | :--------: | :--------: | :--------: |
+| Medium     | 18/06/2019 | C++        | CodeForces | 748 ms     | 1200 KB    |
 
 ```c++
 #include <iostream>
@@ -30,8 +28,6 @@ pair<int, int> get_interval(pair<int, int> *intervals, int start, int end) {
 }
 
 int main() {
-
-    ios::sync_with_stdio(0), cin.tie(0), cout.tie(0);
 
     int n, m;
     cin >> n >> m;

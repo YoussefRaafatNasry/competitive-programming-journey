@@ -1,10 +1,8 @@
 # [Camp Schedule](https://codeforces.com/contest/1138/problem/D)
 
-| Difficulty | Solved on  | Language   | Platform   |
-| :--------: | :--------: | :--------: | :--------: |
-| Hard       | 25/03/2019 | C++        | CodeForces |
-
-### Solution:
+| Difficulty | Solved on  | Language   | Platform   | Time       | Memory     |
+| :--------: | :--------: | :--------: | :--------: | :--------: | :--------: |
+| Hard       | 25/03/2019 | C++        | CodeForces | 31 ms      | 3800 KB    |
 
 ```c++
 #include <iostream>
@@ -40,8 +38,6 @@ int largest_prefix_suffix(string &pattern, int length) {
 }
 
 int main() {
-
-    ios::sync_with_stdio(0), cin.tie(0), cout.tie(0);
 
     string s, t;
     cin >> s >> t;

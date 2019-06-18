@@ -1,16 +1,14 @@
 # [Watermelon](https://codeforces.com/contest/4/problem/A)
 
-| Difficulty | Solved on  | Language   | Platform   |
-| :--------: | :--------: | :--------: | :--------: |
-| Easy       | 08/03/2019 | C++        | CodeForces |
-
-### Solution:
+| Difficulty | Solved on  | Language   | Platform   | Time       | Memory     |
+| :--------: | :--------: | :--------: | :--------: | :--------: | :--------: |
+| Easy       | 08/03/2019 | C++        | CodeForces | 30 ms      | 0 KB       |
 
 ```c++
 #include <iostream>
 using namespace std;
 
-void main() {
+int main() {
 
     int w;
     cin >> w;
@@ -19,6 +17,8 @@ void main() {
         cout << "YES";
     else
         cout << "NO";
+
+    return 0;
 
 }
 ```

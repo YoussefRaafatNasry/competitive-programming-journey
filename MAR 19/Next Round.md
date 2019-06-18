@@ -1,16 +1,14 @@
 # [Next Round](https://codeforces.com/problemset/problem/158/A)
 
-| Difficulty | Solved on  | Language   | Platform   |
-| :--------: | :--------: | :--------: | :--------: |
-| Easy       | 03/03/2019 | C++        | CodeForces |
-
-### Solution:
+| Difficulty | Solved on  | Language   | Platform   | Time       | Memory     |
+| :--------: | :--------: | :--------: | :--------: | :--------: | :--------: |
+| Easy       | 03/03/2019 | C++        | CodeForces | 92 ms      | 0 KB       |
 
 ```c++
 #include <iostream>
 using namespace std;
 
-void main() {
+int main() {
 
     int n, k;
     cin >> n >> k;
@@ -26,6 +24,7 @@ void main() {
     }
 
     cout << winners;
+    return 0;
 
 }
 ```

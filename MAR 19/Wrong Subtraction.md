@@ -1,16 +1,14 @@
 # [Wrong Subtraction](https://codeforces.com/problemset/problem/977/A)
 
-| Difficulty | Solved on  | Language   | Platform   |
-| :--------: | :--------: | :--------: | :--------: |
-| Easy       | 02/03/2019 | C++        | CodeForces |
-
-### Solution:
+| Difficulty | Solved on  | Language   | Platform   | Time       | Memory     |
+| :--------: | :--------: | :--------: | :--------: | :--------: | :--------: |
+| Easy       | 02/03/2019 | C++        | CodeForces | 31 ms      | 0 KB       |
 
 ```c++
 #include <iostream>
 using namespace std;
 
-void main() {
+int main() {
 
     int n, k;
     cin >> n >> k;
@@ -23,6 +21,7 @@ void main() {
     }
 
     cout << n;
+    return 0;
 
 }
 ```

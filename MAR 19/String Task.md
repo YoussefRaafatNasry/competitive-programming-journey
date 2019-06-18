@@ -1,10 +1,8 @@
 # [String Task](https://codeforces.com/contest/118/problem/A)
 
-| Difficulty | Solved on  | Language   | Platform   |
-| :--------: | :--------: | :--------: | :--------: |
-| Easy       | 08/03/2019 | C#         | CodeForces |
-
-### Solution:
+| Difficulty | Solved on  | Language   | Platform   | Time       | Memory     |
+| :--------: | :--------: | :--------: | :--------: | :--------: | :--------: |
+| Easy       | 08/03/2019 | C#         | CodeForces | 92 ms      | 0 KB       |
 
 ```c#
 using System;

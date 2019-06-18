@@ -1,10 +1,8 @@
 # [Book Reading](https://codeforces.com/contest/884/problem/A)
 
-| Difficulty | Solved on  | Language   | Platform   |
-| :--------: | :--------: | :--------: | :--------: |
-| Easy       | 08/03/2019 | C++        | CodeForces |
-
-### Solution:
+| Difficulty | Solved on  | Language   | Platform   | Time       | Memory     |
+| :--------: | :--------: | :--------: | :--------: | :--------: | :--------: |
+| Easy       | 08/03/2019 | C++        | CodeForces | 30 ms      | 0 KB       |
 
 ```c++
 #include <iostream>
@@ -23,6 +21,8 @@ int main() {
         t -= 86400 - daysWorkingTime[i];
         if (t <= 0) return cout << i + 1, 0;
     }
+
+    return 0;
 
 }
 ```
