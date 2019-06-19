@@ -1,5 +1,7 @@
 # [Igor In the Museum](https://codeforces.com/contest/598/problem/D)
 
+![dfs](https://img.shields.io/badge/DFS%20Algorithm-blue.svg?style=flat-square)
+
 | Difficulty | Solved on  | Language   | Platform   | Time       | Memory     |
 | :--------: | :--------: | :--------: | :--------: | :--------: | :--------: |
 | Medium     | 29/03/2019 | C++        | CodeForces | 467 ms     | 58500 KB   |

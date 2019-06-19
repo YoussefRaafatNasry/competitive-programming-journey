@@ -1,5 +1,7 @@
 # [Camp Schedule](https://codeforces.com/contest/1138/problem/D)
 
+![kmp](https://img.shields.io/badge/KMP%20Algorithm-blue.svg?style=flat-square)
+
 | Difficulty | Solved on  | Language   | Platform   | Time       | Memory     |
 | :--------: | :--------: | :--------: | :--------: | :--------: | :--------: |
 | Hard       | 25/03/2019 | C++        | CodeForces | 31 ms      | 3800 KB    |

@@ -1,5 +1,7 @@
 # [Devu and his Brother](https://codeforces.com/contest/439/problem/D)
 
+ ![ternary-search](https://img.shields.io/badge/Ternary%20Search%20Algorithm-blue.svg?style=flat-square)
+
 | Difficulty | Solved on  | Language   | Platform   | Time       | Memory     |
 | :--------: | :--------: | :--------: | :--------: | :--------: | :--------: |
 | Medium     | 15/03/2019 | C++        | CodeForces | 280 ms     | 2100 KB    |

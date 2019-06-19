@@ -1,5 +1,7 @@
 # [Perfect Security](https://codeforces.com/problemset/problem/923/C)
 
+![trie](https://img.shields.io/badge/Trie%20Data%20Structure-red.svg?style=flat-square)
+
 | Difficulty | Solved on  | Language   | Platform   | Time       | Memory     |
 | :--------: | :--------: | :--------: | :--------: | :--------: | :--------: |
 | Hard       | 14/03/2019 | C++        | CodeForces | 1762 ms    | 110300 KB  |
