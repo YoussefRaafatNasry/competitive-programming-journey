@@ -13,3 +13,22 @@
 1. Depth First Search
 1. KMP Algorithm for Pattern Searching
 1. Ternary Search
+
+---
+
+### `Meta`
+
+#### Tags for Commit Messages
+
+```yml
+[PROBLEM] : Adding new solution to problem.
+[IMPROVE] : Solution's implementation or logic improvements.
+[STYLE]   : Changes that apply to all solutions or a single one.
+[REPO]    : Changes to README.md or .gitignore or any git files.
+```
+
+#### Counting solved problems
+
+```bash
+git log --oneline | grep 'PROBLEM' | wc -l
+```
